@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+/* General Styles */
+body {
+  background-color: #121212; 
+  color: #ffffff; 
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 2px solid #00BCD4; 
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  color: #0167ff !important;
+}
+
+/* Sections */
+.container {
+  max-width: 900px;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #00BCD4;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #00BCD4;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0097A7;
+}
+
+/* Footer */
+footer {
+  border-top: 2px solid #00BCD4;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  line-height: 2px;
+  align-content: center;
+
+}
+
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+  
+}
+
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1; 
+  background: black; 
+}
+
+.text-overlay {
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  right: 60%;
+  width: 40%;
+  max-width: 800px; 
+  border: 1px hidden #00BCD4;
+  border-radius: 50px;
+  
+}
+.text-overlay p {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+}
+.text-overlay h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 4rem;
+  color: #00BCD4;
+}
+
+
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 700px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.hero span {
+    color: #00BCD4; 
+}
+
+.hero p {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+/* Info Cards Section */
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    background: #121212;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 225, 255, 0.932);
+    margin: 15px;
+}
+
+.info-card h3 {
+    color: #00BCD4;
+    font-size: 1.5rem;
+}
+
+.info-card p, .info-card ul {
+    font-size: 1rem;
+    color: #cccccc;
+}
+
